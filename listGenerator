@@ -1,0 +1,11 @@
+list = ["zee", 'bee', 'dee', 'eee', 'fee', 'gee']
+for xee in list:
+    print(xee, x )
+    
+    
+    
+    x = 0
+    while x < 7:
+        print(x)
+        x = x + 1
+        
