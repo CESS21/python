@@ -1,0 +1,9 @@
+x = int(input("Enter number to be converted:"))
+if x < 0:
+   z = (x * -x) / x
+   print('negative converted to abs:')
+   print(int(z))
+elif x == (0) :
+    Print(0)
+elif x > 0:
+    print("integer is already positve")
