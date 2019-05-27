@@ -1,0 +1,8 @@
+x = input("enter letter: ")
+if x.isupper():
+    x = x.lower()
+    print(x)
+elif x.islower():
+    x = x.upper()
+    print(x)
+    
