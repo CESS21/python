@@ -1,11 +1,13 @@
-list = ["zee", 'bee', 'dee', 'eee', 'fee', 'gee']
-for xee in list:
-    print(xee, x )
-    
-    
-    
-    x = 0
-    while x < 7:
-        print(x)
-        x = x + 1
+x = 0
+eelist = ["zee", 'bee', 'dee', 'eee', 'fee', 'gee']
+
+
+length = len(eelist)
+while x < length:
+    print(eelist[x], x + 1)
+    x = x + 1
+
+
+
+
         
