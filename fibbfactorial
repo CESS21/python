@@ -1,12 +1,18 @@
 # factorial of a number in the fib sequence
 
 x, y = 0, 1
-sequence = []
 
-while x < 20:
+while x < 50:
    print(x)
-   z = x + y
+   sequence = []
+   for numbers in sequence:
+       sequence.insert(x)
    x, y = y, x + y
+  
+    
+
+    
+sequence = [z]
 
    
 for numbers in sequence:
@@ -27,5 +33,9 @@ if answer == True:
 else:
     print("kajajaj")
 
- 
 
+
+
+sequence = [0, ]
+   for number in sequence:
+       sequence.append(x)
