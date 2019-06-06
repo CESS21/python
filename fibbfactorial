@@ -1,0 +1,31 @@
+# factorial of a number in the fib sequence
+
+x, y = 0, 1
+sequence = []
+
+while x < 20:
+   print(x)
+   z = x + y
+   x, y = y, x + y
+
+   
+for numbers in sequence:
+        sequence.append(x)
+    
+   
+
+  yes, no = 1, 0
+answer = str(input("would you like to find the factorial of an index? yes/no: "))
+if answer == "yes":
+    answer = True
+if answer == "no":
+    answer = False
+    
+if answer == True:
+    index = input("Enter the index you would like to find the factorial of: ")
+    findex =
+else:
+    print("kajajaj")
+
+ 
+
