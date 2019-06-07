@@ -1,41 +1,28 @@
 # factorial of a number in the fib sequence
-
+o, p = 0, 1
 x, y = 0, 1
+sequence = []
 
 while x < 50:
+   sequence.append(x) 
    print(x)
-   sequence = []
-   for numbers in sequence:
-       sequence.insert(x)
+ 
+   print("indicies: "+ str(o ) + str(" ")  + str(p))
+   o, p = o + 1, p + 1
    x, y = y, x + y
   
-    
 
-    
-sequence = [z]
-
-   
-for numbers in sequence:
-        sequence.append(x)
-    
-   
-
-  yes, no = 1, 0
-answer = str(input("would you like to find the factorial of an index? yes/no: "))
+ 
+answer = input("would you like to find the factorial of an index in the fibbonaci sequence? yes/no: ")
 if answer == "yes":
-    answer = True
-if answer == "no":
-    answer = False
+    findex = int(input("Enter the index to calculate the factorial: "))
     
-if answer == True:
-    index = input("Enter the index you would like to find the factorial of: ")
-    findex =
-else:
-    print("kajajaj")
+
+import math
 
 
 
+print(sum(sequence[0:findex+1]))
 
-sequence = [0, ]
-   for number in sequence:
-       sequence.append(x)
+
+
